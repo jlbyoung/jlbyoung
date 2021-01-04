@@ -37,7 +37,7 @@ const useStyles = makeStyles(theme => ({
     },
     card: {
         width: "90%",
-        maxWidth: "4000px",
+        maxWidth: "100%",
         height: "600px",
         margin: "3rem",
         padding: "3rem",

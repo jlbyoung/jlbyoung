@@ -160,7 +160,7 @@ const Experience = () => {
                     <Grid className={classes.mwGrid} container>
                         <Grid item>  
                             <a className={classes.link} href="https://app.meaningfulwork.xyz" target="_blank">MeaningfulWork</a>
-                            <h5 className="vertical-timeline-element-title">Director of Product & Project Manager</h5>
+                            <h5 className="vertical-timeline-element-title">Director of Product & Software Engineer</h5>
                             <p>
                                 End to End Product Development, Product Design, Full Stack Software Engineer
                             </p>                
