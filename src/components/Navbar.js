@@ -33,7 +33,7 @@ const useStyles = makeStyles(theme => ({
       marginTop: 15,
     },
     icon: {
-        color: "#ffc966",
+        color: "#f5cb5c",
         "transition" : "all 0.6s",
         opacity : "1",
             "&:hover": {
@@ -58,7 +58,7 @@ const useStyles = makeStyles(theme => ({
         },
     },
     name: {      
-        color: "#ffc966",
+        color: "#f5cb5c",
         "transition" : "all 0.6s",
         "font-size" : "26px",
         "font-family" : "Cairo, sans-serif",
@@ -77,7 +77,7 @@ const useStyles = makeStyles(theme => ({
         "text-decoration": "none",
     },
     navBtns: {
-        color: "#ffc966",
+        color: "#f5cb5c",
         "transition" : "all 0.6s",
         "font-size" : "1rem",
         "font-family" : "Cairo, sans-serif",

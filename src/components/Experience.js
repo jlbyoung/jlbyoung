@@ -27,7 +27,7 @@ const useStyles = makeStyles(theme => ({
     timeline: {
         "font-family" : "Cairo, sans-serif",
         "&.vertical-timeline::before": {
-            backgroundColor: "#ffc966",
+            backgroundColor: "#f5cb5c",
         },
     },
     container: {
@@ -68,7 +68,7 @@ const useStyles = makeStyles(theme => ({
         "font-family": "Source Code Pro, monospace",
     },
     paper: {
-        backgroundColor: "#ffc966",
+        backgroundColor: "#f5cb5c",
         height: "200px",
         width: "auto",
         display: "grid"
@@ -104,7 +104,10 @@ const useStyles = makeStyles(theme => ({
         backgroundColor: "white"
     },
     end: {
-        backgroundColor: "#ffc966"
+        backgroundColor: "#f5cb5c"
+    },
+    organization: {
+        color: '#e8eddf'
     }
 }))
 const Experience = () => {
@@ -151,7 +154,7 @@ const Experience = () => {
 
                 <VerticalTimelineElement
                     className={classes.work}
-                    contentStyle={{ background: 'black', color: '#ffc966', border: '4px outset #ffc966' }}
+                    contentStyle={{ background: 'black', color: '#f5cb5c', border: '4px outset #cfdbd5' }}
                     contentArrowStyle={{ borderRight: '9px solid  #fff' }}
                     date="July 2020 - present"
                     iconStyle={{ background: '#fff', color: '#fff' }}
@@ -159,7 +162,8 @@ const Experience = () => {
                 >
                     <Grid className={classes.mwGrid} container>
                         <Grid item>  
-                            <a className={classes.link} href="https://app.meaningfulwork.xyz" target="_blank">MeaningfulWork</a>
+                            <Typography className={classes.organization} variant="h4">MeaningfulWork</Typography>
+                            <Typography><a href="https://app.meaningfulwork.xyz" target="_blank">https://app.meaningfulwork.xyz</a></Typography>
                             <h5 className="vertical-timeline-element-title">Director of Product & Software Engineer</h5>
                             <p>
                                 End to End Product Development, Product Design, Full Stack Software Engineer
@@ -184,14 +188,14 @@ const Experience = () => {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
-                    contentStyle={{ background: 'black', color: '#ffc966', border: '4px outset #ffc966'}}
+                    contentStyle={{ background: 'black', color: '#f5cb5c', border: '4px outset #cfdbd5'}}
                     contentArrowStyle={{ borderRight: '9px solid  #fff' }}
                     date="Sep 2018 - present"
                     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                     icon={<SchoolIcon />}
                 >
+                    <Typography className={classes.organization} variant="h4">Simon Fraser University</Typography>
                     <h5 className="vertical-timeline-element-title">Bachelor of Applied Science, Computer Science</h5>
-                    <h5 className="vertical-timeline-element-subtitle">Simon Fraser University</h5>
                     <p>
                         Python, MATLAB, C++, SQL, Java
                     </p>
@@ -199,14 +203,14 @@ const Experience = () => {
 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
-                    contentStyle={{ background: 'black', color: '#ffc966', border: '4px outset #ffc966' }}
+                    contentStyle={{ background: 'black', color: '#f5cb5c', border: '4px outset #cfdbd5' }}
                     contentArrowStyle={{ borderRight: '9px solid  #fff' }}
                     date="Sep 2016 - Aug 2018"
                     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                     icon={<SchoolIcon />}
                 >
+                    <Typography className={classes.organization} variant="h4">Langara College</Typography>
                     <h5 className="vertical-timeline-element-title">Associates of Science, Computer Science</h5>
-                    <h5 className="vertical-timeline-element-subtitle">Langara College</h5>
                     <p>
                         C++, Java, Swift, UX/UI
                     </p>
